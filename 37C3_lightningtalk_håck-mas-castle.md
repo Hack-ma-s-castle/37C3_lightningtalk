@@ -61,15 +61,14 @@ _backgroundColor: #FAFAFA;
 
 # Workshops & Hacking
 
-- Hacker-Infrastructure (Fibre-Internet, DMX, etc)
+- Hacker-Infrastructure  
+  (Fibre-Internet, DMX, etc)
 - Castle-Workshop-Rooms
 
-# Party
+# Party 🎉
 
-- Party Towers
-
-
-The only thing missing, are you!
+- sound proof party towers
+- Tschunk
 
 
 ---
@@ -108,7 +107,7 @@ _backgroundColor: #FAFAFA;
 _footer: Image: CC-BY-SA 2.0 OpenStreetMap
 -->
 
-![bg fit](img/openstreetmap_ottenschlag.png)
+![bg fit](img/openstreetmap_ottenschlag.jpg)
 
 ---
 
