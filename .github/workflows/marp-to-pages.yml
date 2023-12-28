@@ -15,20 +15,20 @@ jobs:
     steps:
 
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Copy images
         run: mkdir build && cp -R img build/img
 
       - name: Marp Build (webpage)
-        uses: docker://marpteam/marp-cli:v2.5.0
+        uses: docker://marpteam/marp-cli:v3.4.0
         with:
           args: 37C3_lightningtalk_håck-mas-castle.md -o build/index.html
         env:
           MARP_USER: root:root
 
       # - name: Marp Build (37C3_lightningtalk_håck-mas-castle.pdf)
-      #   uses: docker://marpteam/marp-cli:v2.5.0
+      #   uses: docker://marpteam/marp-cli:v3.4.0
       #   with:
       #     args: 37C3_lightningtalk_håck-mas-castle.md --pdf --allow-local-files -o build/37C3_lightningtalk_håck-mas-castle.pdf
       #   env:
